@@ -15,7 +15,7 @@ using System.Windows.Shapes;
 
 using WPFFolderBrowser;
 
-namespace WpfAppTest
+namespace WpfAppTest_NetCore
 {
 	/// <summary>
 	/// Interaction logic for MainWindow.xaml

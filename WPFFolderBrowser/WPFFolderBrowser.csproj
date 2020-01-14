@@ -46,7 +46,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>WPFFolderBrowser</RootNamespace>
-    <AssemblyName>WPFFolderBrowser</AssemblyName>
+    <AssemblyName>WPFFolderBrowser_NetFramework</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>

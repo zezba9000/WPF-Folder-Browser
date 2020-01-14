@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>WPFFolderBrowser</RootNamespace>
+		<UseWPF>true</UseWPF>
+		<UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\WPFFolderBrowser\interop\comguids.cs" Link="Interop\comguids.cs" />
+    <Compile Include="..\WPFFolderBrowser\interop\errorhelper.cs" Link="Interop\errorhelper.cs" />
+    <Compile Include="..\WPFFolderBrowser\interop\helpers.cs" Link="Interop\helpers.cs" />
+    <Compile Include="..\WPFFolderBrowser\interop\nativemethods.cs" Link="Interop\nativemethods.cs" />
+    <Compile Include="..\WPFFolderBrowser\interop\nativetaskdialogshowstate.cs" Link="Interop\nativetaskdialogshowstate.cs" />
+    <Compile Include="..\WPFFolderBrowser\interop\ShellComInterfaces.cs" Link="Interop\ShellComInterfaces.cs" />
+    <Compile Include="..\WPFFolderBrowser\interop\shellwrapperdefinitions.cs" Link="Interop\shellwrapperdefinitions.cs" />
+    <Compile Include="..\WPFFolderBrowser\library\WPFFolderBrowserDialog.cs" Link="Library\WPFFolderBrowserDialog.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Interop\" />
+    <Folder Include="Library\" />
+  </ItemGroup>
+
+</Project>
